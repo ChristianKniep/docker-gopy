@@ -2,7 +2,6 @@
 FROM ubuntu:13.10
 MAINTAINER "Christian Kniep <christian@qnib.org>"
 
-ENV http_proxy http://129.184.89.14:80
 ADD bash_history /root/.bash_history
 
 RUN apt-get update
